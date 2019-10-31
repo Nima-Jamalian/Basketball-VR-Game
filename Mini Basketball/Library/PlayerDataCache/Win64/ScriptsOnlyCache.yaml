@@ -1,0 +1,1144 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - BallSpawner
+    - Basketball
+    - BasketballHoop
+    - GameManager
+    - GoalParticleEffectDestroyer
+    - LoadScenes
+    - NewtonVR.NVRCanvasInput
+    - NewtonVR.NVRHand
+    - NewtonVR.NVRHead
+    - NewtonVR.NVRInteractableItem
+    - NewtonVR.NVRPlayer
+    - ScoreTrack
+    - Timer
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
+  sceneClasses:
+    Assets/Scenes/EndScreen.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 92
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9706}
+    - Class: 114
+      Script: {instanceID: 9886}
+    - Class: 114
+      Script: {instanceID: 9934}
+    - Class: 114
+      Script: {instanceID: 10084}
+    - Class: 114
+      Script: {instanceID: 10342}
+    - Class: 114
+      Script: {instanceID: 10730}
+    - Class: 114
+      Script: {instanceID: 10824}
+    - Class: 114
+      Script: {instanceID: 11052}
+    - Class: 114
+      Script: {instanceID: 11230}
+    - Class: 114
+      Script: {instanceID: 11442}
+    - Class: 114
+      Script: {instanceID: 11558}
+    - Class: 114
+      Script: {instanceID: 11596}
+    - Class: 114
+      Script: {instanceID: 11632}
+    - Class: 114
+      Script: {instanceID: 11646}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Game.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 92
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9706}
+    - Class: 114
+      Script: {instanceID: 9886}
+    - Class: 114
+      Script: {instanceID: 9962}
+    - Class: 114
+      Script: {instanceID: 10342}
+    - Class: 114
+      Script: {instanceID: 10500}
+    - Class: 114
+      Script: {instanceID: 10526}
+    - Class: 114
+      Script: {instanceID: 10608}
+    - Class: 114
+      Script: {instanceID: 10824}
+    - Class: 114
+      Script: {instanceID: 10934}
+    - Class: 114
+      Script: {instanceID: 11052}
+    - Class: 114
+      Script: {instanceID: 11230}
+    - Class: 114
+      Script: {instanceID: 11442}
+    - Class: 114
+      Script: {instanceID: 11558}
+    - Class: 114
+      Script: {instanceID: 11570}
+    - Class: 114
+      Script: {instanceID: 11576}
+    - Class: 114
+      Script: {instanceID: 11632}
+    - Class: 114
+      Script: {instanceID: 11646}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    Assets/Scenes/Menu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 92
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 109
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9706}
+    - Class: 114
+      Script: {instanceID: 9886}
+    - Class: 114
+      Script: {instanceID: 9934}
+    - Class: 114
+      Script: {instanceID: 10084}
+    - Class: 114
+      Script: {instanceID: 10342}
+    - Class: 114
+      Script: {instanceID: 10730}
+    - Class: 114
+      Script: {instanceID: 10824}
+    - Class: 114
+      Script: {instanceID: 11052}
+    - Class: 114
+      Script: {instanceID: 11230}
+    - Class: 114
+      Script: {instanceID: 11558}
+    - Class: 114
+      Script: {instanceID: 11596}
+    - Class: 114
+      Script: {instanceID: 11632}
+    - Class: 114
+      Script: {instanceID: 11646}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 4bc4346a71a8df53a6b106f68ef3a190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 10699b6c77e100bc5d3212ed6aa22754
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR.Example
+    className: NVRExampleLetterResult
+  - hash:
+      serializedVersion: 2
+      Hash: 8880a1f64fdd0095a1605b57d77fb201
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR.Example
+    className: NVRExampleTeleporter
+  - hash:
+      serializedVersion: 2
+      Hash: 984dcc0ba3707b7691fbdca8ff508d28
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 378473cd766bacf5d5af658c64010333
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRMixedRealityCaptureSettings
+  - hash:
+      serializedVersion: 2
+      Hash: bf530eb47e6a86dcee1d42e40c3b7ac8
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 0c0d3eddccfa04ba0b09ec59e165e009
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRCameraRig
+  - hash:
+      serializedVersion: 2
+      Hash: 105b78d23b2d5c3d23483d19b0850ba4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRGazePointer
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 5d905d075335776f621c7224da63d67d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR.Example
+    className: NVRExampleSwitchResult
+  - hash:
+      serializedVersion: 2
+      Hash: 91969c85072956b7faafd9944c50ebdd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR
+    className: NVRLetterSpinner
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 2f10cc4ec84a9874cfdfe66177cccdd6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRDebugHeadController
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: ad1be3c3dd5b6c734c2da9b5147a59e3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRManager
+  - hash:
+      serializedVersion: 2
+      Hash: fc108ce7d98c40ac0907e8ca7f500c76
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 06a330481ec400be50745bb7faf76bd0
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 68d12dc2bd983502cf800404b7cd6c69
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR
+    className: NVRButton
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 89498a9a4a6296605faa18a2c5f758a4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: b3bb7c40cede9849e7814d6093dcfcea
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 9e70ecf91466f07d9bd649be625cae52
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 00d585e880631dff6d8b035be549c3a8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BasketballHoop
+  - hash:
+      serializedVersion: 2
+      Hash: 91969c85072956b7faafd9944c50ebdd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR
+    className: NVRInteractableRotator
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: b83d1b228f3857c372817cf069841b43
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRPlayerController
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c16b952da6b2ab97c86aff69a2878dd3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR
+    className: NVRCollisionSoundObject
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LoadScenes
+  - hash:
+      serializedVersion: 2
+      Hash: 91dc2f7bd5ee6dd0b9390aaafc780446
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR.Example
+    className: NVRExampleDegreeResult
+  - hash:
+      serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRProfiler
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 00274a21279f5cb831ce20f895049e38
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 1287a5110fe8cef4a19261af98e50d4a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR.Example
+    className: NVRExampleLeverResultRocket
+  - hash:
+      serializedVersion: 2
+      Hash: c852834080a1b9196880261cf243c36f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRTrackedRemote
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 4d2d624e3fb3338d213b25723a2b6541
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR
+    className: NVRAttachJoint
+  - hash:
+      serializedVersion: 2
+      Hash: b8a5e8091ab0b8861d2add371082c5e0
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 403bc0061d19e571306511e34879eec0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR
+    className: NVRInteractableItemClippable
+  - hash:
+      serializedVersion: 2
+      Hash: 9be975ed84da36efd7c22fd0f38877e6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVROverlay
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc90e648ac06f43bdd31ac9fa8f4579
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 6ed0a296f1f1c9a2b22c6f8e635be7c9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRProgressIndicator
+  - hash:
+      serializedVersion: 2
+      Hash: 277ecd023fe00763c61e2fd4db1aaae6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR
+    className: NVRSwitch
+  - hash:
+      serializedVersion: 2
+      Hash: 76056c447cc3c6f6ef56bfcaed33514e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRPlatformMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 9e905b2fc5093d9e8d47ab24ee19c083
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR
+    className: NVRSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 3fa365e94d64897f93f9e55ef15e8bec
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Basketball
+  - hash:
+      serializedVersion: 2
+      Hash: b3ab2106268377ffe25dd18ac23dca28
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Asset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRDebugInfo
+  - hash:
+      serializedVersion: 2
+      Hash: bbbea5b23667b0a286ead4f21ad81c66
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Timer
+  - hash:
+      serializedVersion: 2
+      Hash: 97ace6213ad0f149b0917a4c669c6ca3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 9edf0788742c31d8eaaf32cf4feac747
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRResetOrientation
+  - hash:
+      serializedVersion: 2
+      Hash: f3f779b70b040f08a6d637040cc9b89a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR
+    className: NVRPhysicalController
+  - hash:
+      serializedVersion: 2
+      Hash: 22dc216204f0e65ce2161bd7b6ecf06b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRScreenFade
+  - hash:
+      serializedVersion: 2
+      Hash: aec5585d7df54cb779ac296be385de73
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BallSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR
+    className: NVRCollisionSoundProviderUnity
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: a4b88f3b08f1f148e04c6c3d7544c9ec
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRMonoscopic
+  - hash:
+      serializedVersion: 2
+      Hash: 0182aac3fd8bfdeff27021b9548c3a6a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRGrabbable
+  - hash:
+      serializedVersion: 2
+      Hash: 9fce3d3ad5943924497902d7085db4c5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRCubemapCapture
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 516824a435828eadd660ef2f1658a48e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 92da9881aed190e8bb74661bcd74aa2c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 9edf0788742c31d8eaaf32cf4feac747
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRModeParms
+  - hash:
+      serializedVersion: 2
+      Hash: b5d01a44c9a694c6b9bce4626dd0a12e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRGearVrControllerTest
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR.Example
+    className: NVRExampleButtonDropSphere
+  - hash:
+      serializedVersion: 2
+      Hash: aeccf7c0cd10c6effa04aa9663a8648f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR
+    className: NVRCanvasInput
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR
+    className: NVRInteractables
+  - hash:
+      serializedVersion: 2
+      Hash: 7c22fa2ba994374590c55f051639fe2b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR
+    className: NVRLever
+  - hash:
+      serializedVersion: 2
+      Hash: a87b1471d5a32dfa2c505a5b328de3cb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR
+    className: NVRAttachPoint
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR
+    className: NVRCollisionSoundProviderFMOD
+  - hash:
+      serializedVersion: 2
+      Hash: 34775f7fe7e3de70df9b4d94b3092ace
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GoalParticleEffectDestroyer
+  - hash:
+      serializedVersion: 2
+      Hash: 12e64d607873da15ad3f833620350d51
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 6eec73ef93bfe43ef513041177529a3d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRWaitCursor
+  - hash:
+      serializedVersion: 2
+      Hash: 3f8d7b92a6be3c715e55d5cfa7cc8384
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 08e319a5b874f4544a27d432137d6b9c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR.Example
+    className: NVRExampleColorSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 35a9693c388776aaf487636491a20f11
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e1300922cc039f41ab46a47f4cb05898
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: a4b88f3b08f1f148e04c6c3d7544c9ec
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRChromaticAberration
+  - hash:
+      serializedVersion: 2
+      Hash: 3a0fa4528690e89614a27f9b88a889c4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRSceneSampleController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 3f4c4966804a429d52a0dcce0eb7951e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR.Example
+    className: NVRExampleColorLever
+  - hash:
+      serializedVersion: 2
+      Hash: c1933cc0a2f4ff6eb13333347497beb3
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 8c6f66e7a7041b253e9dbc1bec5df739
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR
+    className: NVRPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR.Example
+    className: NVRExampleButtonResetScene
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR
+    className: NVRUIIgnoreRaycast
+  - hash:
+      serializedVersion: 2
+      Hash: 7631228b74948c045f5940a1479bf8af
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR.Example
+    className: NVRExampleGun
+  - hash:
+      serializedVersion: 2
+      Hash: ee0cef6caaac8ae485bfa82f000f0f7b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: a2f4bb9d918a89b5f8f8ad52403c0014
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR.Example
+    className: NVRExampleSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: b908580c4960f3fde39f07e9f4d00753
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR
+    className: NVRInteractableItemAutoAttach
+  - hash:
+      serializedVersion: 2
+      Hash: 3f70808c2961a598688d62ac6c3c9016
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityEngine.EventSystems
+    className: OVRPhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 34c971ccf5a4d4c276f7753251cba95d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRGridCube
+  - hash:
+      serializedVersion: 2
+      Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 77568d3864450fe0a5cc2bfddab4bc53
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR
+    className: NVRCollisionSoundController
+  - hash:
+      serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRLint
+  - hash:
+      serializedVersion: 2
+      Hash: f02ee18fddb9297591aab1b6868a7267
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR.Example
+    className: NVRExampleRGBResult
+  - hash:
+      serializedVersion: 2
+      Hash: afbf93a7a307bd30a8a7902c109803ed
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR.Example
+    className: NVRExampleLaserPointer
+  - hash:
+      serializedVersion: 2
+      Hash: 9e3124d0e03404c15fd9e7b53f80de77
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityEngine.EventSystems
+    className: OVRInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 11206112ec687db2172d3c94b2bdc0f2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRGrabber
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR
+    className: NVROculusInputDevice
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR
+    className: NVRSteamVRInputDevice
+  - hash:
+      serializedVersion: 2
+      Hash: d791aa6007fa3640be1164ea75bb087d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: fd603770689195d8c21e05ad28422d62
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScoreTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 5372ed2ce39229b1ac910757999a8be2
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR
+    className: NVRHead
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR.Example
+    className: NVRExampleEvent
+  - hash:
+      serializedVersion: 2
+      Hash: e6d26103329131becd5828eb64af8e63
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 403bc0061d19e571306511e34879eec0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR
+    className: NVRInteractableItem
+  - hash:
+      serializedVersion: 2
+      Hash: 3f52d34ea17dfc771004b80f5d492445
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 8649814970b42d345b89944b862453cc
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 7090bc1e5ccaec2a9d0d1335ed8cee99
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 0852116b29df10ce3f9156850d406521
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 17483201901205b326a4145f55f78896
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR
+    className: NVRHand
+  - hash:
+      serializedVersion: 2
+      Hash: 3ab7272a8b7d3ea5a142e0c9b6aae63b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 85c97bcc5f84eeb0999d75902803b99d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 403bc0061d19e571306511e34879eec0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NewtonVR.Example
+    className: NVRExampleGrower
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  platform: 19
+  scenePathNames:
+  - Assets/Scenes/Menu.unity
+  - Assets/Scenes/Game.unity
+  - Assets/Scenes/EndScreen.unity
+  playerPath: C:/Users/jseye001/Desktop/VR Lab Demo/Working Version/Mini Basketball
+    VR Windows Built/Mini Basketball.exe
